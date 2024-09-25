@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const Palacio());
-}
-
-class Palacio extends StatelessWidget {
-  const Palacio({super.key});
+class PalacioHome extends StatelessWidget {
+  const PalacioHome({super.key});
 
   @override
   Widget build(BuildContext context) {
