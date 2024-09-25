@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'view/views.dart';
 
 void main() {
   runApp(const Palacio());
@@ -9,6 +10,6 @@ class Palacio extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const PalacioHome();
   }
 }
