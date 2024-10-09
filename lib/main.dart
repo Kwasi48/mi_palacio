@@ -10,6 +10,6 @@ class Palacio extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const PalacioHome();
+    return const PalacioLogin();
   }
 }
